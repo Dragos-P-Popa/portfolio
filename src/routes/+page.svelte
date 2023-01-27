@@ -7,38 +7,11 @@
 
     let ready = false;
     let active = false;
+    let y: number;
     let src = "wave-animated.png";
     onMount(() => ready = true);
 
-    let aboutBg: String, projectsBg: String, homeBg: String = "#0f172a";
-    homeBg = "#374151";
-
-    function about() {
-        projectsBg = "#0f172a";
-		aboutBg = "#374151";
-        homeBg = "#0f172a";
-	}
-    function projects() {
-		projectsBg = "#374151";
-        aboutBg = "#0f172a";
-        homeBg = "#0f172a";
-	}
-    function home() {
-        projectsBg = "#0f172a";
-        aboutBg = "#0f172a";
-		homeBg = "#374151";
-	}
-
-    // @ts-ignore
-    function scrollIntoView({ target }) {
-		const el = document.querySelector(target.getAttribute('href'));
-		if (!el) return;
-        el.scrollIntoView({
-        behavior: 'smooth'
-        });
-    }
 </script>
-
 
 <div class="sticky z-50 drop-shadow-lg top-0 bg-gray-900 pt-3 pb-3 mb-[10%]">
     <div class="mx-[15%] flex flex-row">
@@ -57,19 +30,24 @@
             </div>
         </div>
         <div class="basis-1/2 grid grid-cols-3 justify-self-end justify-items-center items-center">
-            <div class="rounded-md p-2 bg-inherit" style="background-color: {homeBg};">
-                <a href="#home" on:click={() => animateScroll.scrollToTop()} on:click={home}>.home( )</a>
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
+            <div on:click={() => animateScroll.scrollToTop()} class="hover:drop-shadow-lg hover:scale-110 hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-150 ease-in-out delay-100 rounded-md p-2 bg-inherit">
+                <!-- svelte-ignore a11y-invalid-attribute -->
+                <a href="" >.home( )</a>
             </div>
-            <div class="rounded-md p-2 bg-inherit" style="background-color: {projectsBg};">
-                <a href="#projects" on:click|preventDefault={scrollIntoView} on:click={projects}>.projects( )</a>
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
+            <div on:click={() => animateScroll.scrollTo({element: '#about', offset: -100})} class="hover:drop-shadow-lg hover:scale-110 hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-150 ease-in-out delay-100 rounded-md p-2 bg-inherit">
+                <!-- svelte-ignore a11y-invalid-attribute -->
+                <a href="">.about( )</a>
             </div>
-            <div class="rounded-md p-2 bg-inherit" style="background-color: {aboutBg};">
-                <button on:click={about}>.about( )</button>
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
+            <div on:click={() => animateScroll.scrollTo({element: '#projects', offset: -100})} class="hover:drop-shadow-lg hover:scale-110 hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-150 ease-in-out delay-100 rounded-md p-2 bg-inherit">
+                <!-- svelte-ignore a11y-invalid-attribute -->
+                <a href="">.projects( )</a>
             </div>
         </div>	
     </div>
 </div>
-    
 
 <div class="px-[15%]">
     <h1 class="lg:text-5xl sm:text-xl font-bold subpixel-antialiased">
@@ -107,24 +85,80 @@
             <p class="pl-4">ed20dpp @ leeds.ac.uk</p>
         </div>
     </div>
+
+
+    <h1 id="about" class="lg:text-4xl sm:text-xl font-bold mt-[15%] pb-10 ">
+        .about( )
+    </h1>
+
+    <div class="grid grid-cols-4 gap-2">
+        <div class="grid grid-cols-4 justify-items-start items-center col-span-3">
+            <div class="col-span-1">
+                <img class="rounded-full hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 " src="dragos.jpeg" alt="">
+            </div>
+            <div class="ml-10 col-span-3">
+                <h1 class="lg:text-3xl sm:text-xl font-bold mt-[10%] pb-2">
+                    Dragos Popa
+                </h1>
+                <p class="lg:text-md pb-10">
+                    2nd year Computer Science student
+                </p>                    
+            </div>
+            <div class="row-span-3 col-span-4 pt-6 whitespace-pre-line">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non ipsum tellus. Sed ac erat elit. Pellentesque aliquam, lectus sit amet molestie imperdiet, eros elit vulputate quam, vel sodales urna est quis ligula. Phasellus facilisis ullamcorper blandit. Donec pharetra, ex in auctor laoreet, erat ex tempus quam, et hendrerit quam turpis eget nulla. Proin posuere tincidunt semper. Vestibulum magna erat, malesuada non orci in, suscipit euismod quam. Sed venenatis eleifend eros, nec volutpat dolor ultrices ac. Sed id felis a diam sagittis fermentum in sed ante. Curabitur sollicitudin, ante non ultricies varius, nulla orci aliquet metus, id dignissim neque tortor in tellus. Nullam ut ullamcorper enim, quis pellentesque mauris. Praesent eu orci pretium, sollicitudin diam ac, feugiat sem. Aenean turpis ligula, mattis vel nunc sit amet, gravida tristique orci.
+            </div>
+        </div>
+        <div class="col-span-1 items-center">
+            <div class="border border-2 border-emerald-800 p-5 rounded-md">
+                <div class="flex items-center justify-start">
+                    <div>
+                        <img alt="" src="github.svg" width="40" height="40" />
+                    </div>
+                    <div>
+                        <a href="https://github.com/Dragos-P-Popa" target="_blank" rel="noreferrer" class="hover:underline pl-4">Dragos-P-Popa</a>
+                    </div>
+                </div>
+                
+                <div class="pt-2 flex items-center justify-start">
+                    <div>
+                        <img alt="" src="linkedin.svg" width="40" height="40" />
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/dragosppopa/" target="_blank" rel="noreferrer" class="hover:underline pl-4">Dragos Popa</a>
+                    </div>
+                </div>
+
+                <div class="pt-2 flex items-center justify-start">
+                    <div>
+                        <img alt="" src="resume.svg" width="40" height="40" />
+                    </div>
+                    <div>
+                        <a href="" target="_blank" rel="noreferrer" class="hover:underline pl-4">Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
-    <h1 id="projects" class="lg:text-4xl sm:text-xl font-bold pt-24 pb-10">
+    <h1 id="projects" class="lg:text-4xl sm:text-xl font-bold mt-[10%] pb-10">
         .projects( )
     </h1>
 
-    <div class="w-[100%] h-[100%]">
+    <div id="pj" class="w-[100%] h-[100%]">
         <div class="grid grid-cols-10">
             <div class="row-span-full justify-items-end col-start-1 col-span-6 self-center">
                 <p class="text-sm font-light pb-1 text-emerald-600">
-                    Featured project
+                    featured project
                 </p>
-                <div class="drop-shadow-lg  min-w-[100%] rounded-sm bg-emerald-600 bg-opacity-50 backdrop-blur-sm w-[100%] h-[10%] mb-4 p-5 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
-                    <h1 class="lg:text-4xl sm:text-md max-w-fit font-bold ">
-                        2Sway iOS application
-                    </h1>
-                </div>
+                <a href="https://github.com/2sway/MVP-may" target="_blank" rel="noreferrer">
+                    <div class="hover:underline drop-shadow-lg min-w-[100%] rounded-sm bg-emerald-600 bg-opacity-50 backdrop-blur-sm w-[100%] h-[10%] mb-4 p-5 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                            <h1 class="lg:text-4xl sm:text-md max-w-fit font-bold ">
+                                2Sway iOS application  
+                            </h1>
+                    </div>
+                </a>
                 <p class="text-md font-medium pb-1 w-[70%]">
-                    Developed 2Sway, an iOS app as the sole technical founder of a university startup. Led the development and designed the user experience.
+                    developed 2Sway, an iOS app as the sole technical founder of a university startup. Led the development and designed the user experience.
                 </p>
             </div>
             <div class="row-span-full col-span-6 col-end-11 self-center p-4 ">
@@ -140,26 +174,54 @@
             </div>
             <div class="row-span-full col-span-6 col-end-11 self-center p-4 ">
                 <p class="text-sm font-light pb-1 text-emerald-600  min-w-[100%] text-right">
-                    Featured project
+                    featured project
                 </p>
-                <div class="drop-shadow-lg min-w-[100%] rounded-sm bg-emerald-600 bg-opacity-50 backdrop-blur-sm w-[100%] h-[10%] mb-4 p-5 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
-                    <h1 class="lg:text-4xl sm:text-md font-bold">
-                        VH-Net Laravel WebApp
-                    </h1>
-                </div>
+                <a href="https://github.com/Dragos-P-Popa/VirtualHubWeb" target="_blank" rel="noreferrer">
+                    <div class="hover:underline drop-shadow-lg min-w-[100%] rounded-sm bg-emerald-600 bg-opacity-50 backdrop-blur-sm w-[100%] h-[10%] mb-4 p-5 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                        <h1 class="lg:text-4xl sm:text-md font-bold">
+                            VH-Net Laravel WebApp
+                        </h1>
+                    </div>
+                </a>
                 <p class="text-md font-medium pb-1 pl-[35%]">
-                    Developed 2Sway, an iOS app as the sole technical founder of a university startup. Led the development and designed the user experience.
+                    developed 2Sway, an iOS app as the sole technical founder of a university startup. Led the development and designed the user experience.
                 </p>
             </div>
         </div>
     </div>
 
+    
+    <h1 id="other" class="lg:text-3xl sm:text-md font-bold pt-16 pb-10 text-center min-w-[100%]">
+        other noteworthy projects
+    </h1>
+
+
+    <div class="grid grid-rows-2 gap-3 justify-items-center">
+        
+        <a href="#" class="min-w-[100%] flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 transition transform hover:-translate-y-1 hover:-translate-x-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+            <div class="flex flex-col justify-between p-4 leading-normal">
+                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+            </div>
+        </a>
+
+        <a href="#" class="min-w-[100%] flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 transition transform hover:-translate-y-1 hover:-translate-x-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+            <div class="flex flex-col justify-between p-4 leading-normal">
+                <h5 class="mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                <p class="mb-2 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+            </div>
+        </a>
+
+    </div>
 
     
 </div>
+
 
 <style lang="postcss">
 :global(html) {
     background-color: #111827;
 }
 </style>
+
+<svelte:window bind:scrollY={y}/>
