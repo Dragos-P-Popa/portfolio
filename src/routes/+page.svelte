@@ -29,7 +29,7 @@
                 }} id="wave" src={src}/>
             </div>
         </div>
-        <div class="md:basis-1/2 grid grid-cols-3 justify-self-end justify-items-center items-center">
+        <div class="md:basis-1/2 basis-full text-xs md:text-md lg:text-xl mx-[-10%] md:mx-[0%] grid grid-cols-3 justify-self-end justify-items-center items-center">
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             <div on:click={() => animateScroll.scrollToTop()} class="hover:drop-shadow-lg hover:scale-110 hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-150 ease-in-out delay-100 rounded-md p-2 bg-inherit">
                 <!-- svelte-ignore a11y-invalid-attribute -->
@@ -94,7 +94,7 @@
 
     <div id="pj" class="w-[100%] h-[100%]">
         <div class="grid grid-cols-10">
-            <div class="row-span-full justify-items-end col-start-1 col-span-6 self-center">
+            <div class="row-span-full justify-items-end col-start-1 max-[600px]:col-span-10 col-span-6 self-center">
                 <p class="text-sm font-light pb-1 text-emerald-600">
                     featured project
                 </p>
@@ -105,11 +105,11 @@
                             </h1>
                     </div>
                 </a>
-                <p class="text-md font-medium pb-1 w-[70%]">
+                <p class="text-md font-medium pb-1 min-[600px]:w-[70%]">
                     developed 2Sway, an iOS app as the sole technical founder of a university startup. Led the development and designed the user experience.
                 </p>
             </div>
-            <div class="row-span-full col-span-6 col-end-11 self-center p-4 ">
+            <div class="collapse min-[600px]:visible row-span-full col-span-6 col-end-11 self-center p-4 ">
                 <img class="hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="https://images.unsplash.com/photo-1610212411735-e68d49920025?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="">
             </div>
         </div>
@@ -117,10 +117,10 @@
 
     <div class="pt-8 w-[100%] h-[100%]">
         <div class="grid grid-cols-10 justify-items-end">
-            <div class="row-span-full col-start-1 col-span-6 self-center">
-                <img class="hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="https://images.unsplash.com/photo-1610212411735-e68d49920025?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="">
+            <div class="row-span-full max-[600px]:col-span-0 col-start-1 col-span-6 self-center">
+                <img class="collapse min-[600px]:visible hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="https://images.unsplash.com/photo-1610212411735-e68d49920025?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="">
             </div>
-            <div class="row-span-full col-span-6 col-end-11 self-center p-4 ">
+            <div class="row-span-full max-[600px]:col-span-10 max-[600px]:col-start-1 col-span-6 col-end-11 self-center min-[600px]:p-4 ">
                 <p class="text-sm font-light pb-1 text-emerald-600  min-w-[100%] text-right">
                     featured project
                 </p>
@@ -131,7 +131,7 @@
                         </h1>
                     </div>
                 </a>
-                <p class="text-md font-medium pb-1 pl-[35%]">
+                <p class="text-md font-medium pb-1 min-[600px]:pl-[35%]">
                     developed 2Sway, an iOS app as the sole technical founder of a university startup. Led the development and designed the user experience.
                 </p>
             </div>
