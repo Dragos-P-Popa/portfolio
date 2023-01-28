@@ -120,7 +120,7 @@
             <div class="row-span-full max-[600px]:col-span-0 col-start-1 col-span-6 self-center">
                 <img class="collapse min-[600px]:visible hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="https://images.unsplash.com/photo-1610212411735-e68d49920025?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="">
             </div>
-            <div class="row-span-full max-[600px]:col-span-10 max-[600px]:col-start-1 col-span-6 col-end-11 self-center min-[600px]:p-4 ">
+            <div class="row-span-full  max-[600px]:col-start-1 col-span-6 col-end-11 self-center min-[600px]:p-4">
                 <p class="text-sm font-light pb-1 text-emerald-600  min-w-[100%] text-right">
                     featured project
                 </p>
@@ -155,8 +155,8 @@
 
         <a href="#" class="min-w-[100%] flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 transition transform hover:-translate-y-1 hover:-translate-x-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
             <div class="flex flex-col justify-between p-4 leading-normal">
-                <h5 class="mb-1 text-md lg:text-xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                <p class="mb-2 text-sm lg:text-md  font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                <h5 class="mb-2 text-md font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                <p class="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
             </div>
         </a>
 
@@ -166,8 +166,8 @@
         .about( )
     </h1>
 
-    <div class="grid grid-cols-4 gap-2 mb-[10%]">
-        <div class="grid grid-cols-4 justify-items-start items-center col-span-3">
+    <div class="grid grid-cols-4 gap-6">
+        <div class="grid grid-cols-4 justify-items-start items-center col-span-4 min-[800px]:col-span-3 min-[600px]:row-span-2">
             <div class="col-span-1">
                 <img class="rounded-full hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 " src="dragos.jpeg" alt="">
             </div>
@@ -183,14 +183,14 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non ipsum tellus. Sed ac erat elit. Pellentesque aliquam, lectus sit amet molestie imperdiet, eros elit vulputate quam, vel sodales urna est quis ligula. Phasellus facilisis ullamcorper blandit. Donec pharetra, ex in auctor laoreet, erat ex tempus quam, et hendrerit quam turpis eget nulla. Proin posuere tincidunt semper. Vestibulum magna erat, malesuada non orci in, suscipit euismod quam. Sed venenatis eleifend eros, nec volutpat dolor ultrices ac. Sed id felis a diam sagittis fermentum in sed ante. Curabitur sollicitudin, ante non ultricies varius, nulla orci aliquet metus, id dignissim neque tortor in tellus. Nullam ut ullamcorper enim, quis pellentesque mauris. Praesent eu orci pretium, sollicitudin diam ac, feugiat sem. Aenean turpis ligula, mattis vel nunc sit amet, gravida tristique orci.
             </div>
         </div>
-        <div class="col-span-1 items-center">
+        <div class="col-span-4 hidden min-[800px]:col-span-1 min-[800px]:block items-center ">
             <div class="border border-2 border-emerald-800 p-5 rounded-md">
                 <div class="flex items-center justify-start">
                     <div>
                         <img alt="" src="github.svg" width="40" height="40" />
                     </div>
                     <div>
-                        <a href="https://github.com/Dragos-P-Popa" target="_blank" rel="noreferrer" class="hover:underline pl-4">Dragos-P-Popa</a>
+                        <a href="https://github.com/Dragos-P-Popa" target="_blank" rel="noreferrer" class="hover:underline pl-4 text-xs lg:text-md">Dragos-P-Popa</a>
                     </div>
                 </div>
                 
@@ -199,7 +199,7 @@
                         <img alt="" src="linkedin.svg" width="40" height="40" />
                     </div>
                     <div>
-                        <a href="https://www.linkedin.com/in/dragosppopa/" target="_blank" rel="noreferrer" class="hover:underline pl-4">Dragos Popa</a>
+                        <a href="https://www.linkedin.com/in/dragosppopa/" target="_blank" rel="noreferrer" class="hover:underline text-xs lg:text-md pl-4">Dragos Popa</a>
                     </div>
                 </div>
 
@@ -208,12 +208,42 @@
                         <img alt="" src="resume.svg" width="40" height="40" />
                     </div>
                     <div>
-                        <a href="" target="_blank" rel="noreferrer" class="hover:underline pl-4">Resume</a>
+                        <a href="" target="_blank" rel="noreferrer" class="hover:underline text-xs lg:text-md pl-4">Resume</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="border border-2 border-emerald-800 p-5 mt-12 rounded-md min-[800px]:collapse mb-[20%]">
+        <div class="flex items-center justify-start">
+            <div>
+                <img alt="" src="github.svg" width="40" height="40" />
+            </div>
+            <div>
+                <a href="https://github.com/Dragos-P-Popa" target="_blank" rel="noreferrer" class="hover:underline pl-4 text-xs lg:text-md">Dragos-P-Popa</a>
+            </div>
+        </div>
+        
+        <div class="pt-2 flex items-center justify-start">
+            <div>
+                <img alt="" src="linkedin.svg" width="40" height="40" />
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/dragosppopa/" target="_blank" rel="noreferrer" class="hover:underline text-xs lg:text-md pl-4">Dragos Popa</a>
+            </div>
+        </div>
+
+        <div class="pt-2 flex items-center justify-start">
+            <div>
+                <img alt="" src="resume.svg" width="40" height="40" />
+            </div>
+            <div>
+                <a href="" target="_blank" rel="noreferrer" class="hover:underline text-xs lg:text-md pl-4">Resume</a>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <hr class="h-px mt-6 bg-gray-200 border-0 dark:bg-gray-700">
