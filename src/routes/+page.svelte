@@ -215,7 +215,7 @@
         </div>
     </div>
 
-    <div class="border border-2 border-emerald-800 p-5 mt-12 rounded-md min-[800px]:collapse mb-[20%]">
+    <div class="border border-2 border-emerald-800 p-5 mt-12 rounded-md min-[800px]:hidden mb-[20%]">
         <div class="flex items-center justify-start">
             <div>
                 <img alt="" src="github.svg" width="40" height="40" />
@@ -246,7 +246,7 @@
 
 </div>
 
-<hr class="h-px mt-6 bg-gray-200 border-0 dark:bg-gray-700">
+<hr class="h-px mt-[10%] bg-gray-200 border-0 dark:bg-gray-700">
 <footer>
     <div class="grid items-center justify-items-center">
         <p class="my-6">Made with &#10084; by Dragos Popa</p>
