@@ -1,0 +1,8 @@
+<script>
+  import "../app.css";
+  import "@fontsource/space-mono";
+  import "@fontsource/space-mono/400.css";
+  import "@fontsource/space-mono/700.css";
+</script>
+  
+<slot />
