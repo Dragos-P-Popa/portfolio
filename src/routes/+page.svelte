@@ -179,8 +179,10 @@
                     2nd year Computer Science student
                 </p>                    
             </div>
-            <div class="row-span-3 col-span-4 pt-6 whitespace-pre-line">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non ipsum tellus. Sed ac erat elit. Pellentesque aliquam, lectus sit amet molestie imperdiet, eros elit vulputate quam, vel sodales urna est quis ligula. Phasellus facilisis ullamcorper blandit. Donec pharetra, ex in auctor laoreet, erat ex tempus quam, et hendrerit quam turpis eget nulla. Proin posuere tincidunt semper. Vestibulum magna erat, malesuada non orci in, suscipit euismod quam. Sed venenatis eleifend eros, nec volutpat dolor ultrices ac. Sed id felis a diam sagittis fermentum in sed ante. Curabitur sollicitudin, ante non ultricies varius, nulla orci aliquet metus, id dignissim neque tortor in tellus. Nullam ut ullamcorper enim, quis pellentesque mauris. Praesent eu orci pretium, sollicitudin diam ac, feugiat sem. Aenean turpis ligula, mattis vel nunc sit amet, gravida tristique orci.
+            <div class="whitespace-pre row-span-3 col-span-4 pt-6 whitespace-pre-line">
+                Hi! I'm a driven and enthusiastic student currently studying Computer Science at the University of Leeds. I have a strong interest in mobile and web development and actively seek out opportunities to apply my knowledge and skills in real-world settings.
+                
+                In my free time, I enjoy involving myself in interesting projects and startups around my community. I'm always looking for new challenges and experiences to expand my knowledge and skill set, and I'm eager to see where my studies and passions will take me in the future.
             </div>
         </div>
         <div class="col-span-4 hidden min-[800px]:col-span-1 min-[800px]:block items-center ">
@@ -239,7 +241,7 @@
                 <img alt="" src="resume.svg" width="40" height="40" />
             </div>
             <div>
-                <a href="" target="_blank" rel="noreferrer" class="hover:underline text-xs lg:text-md pl-4">Resume</a>
+                <a href="resume.pdf" target="_blank" rel="noreferrer" class="hover:underline text-xs lg:text-md pl-4">Resume</a>
             </div>
         </div>
     </div>
