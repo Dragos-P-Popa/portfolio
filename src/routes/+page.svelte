@@ -110,7 +110,7 @@
                 </p>
             </div>
             <div class="collapse min-[600px]:visible row-span-full col-span-6 col-end-11 self-center p-4 ">
-                <img class="hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="https://images.unsplash.com/photo-1610212411735-e68d49920025?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="">
+                <img class="hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="2sway.jpeg" alt="">
             </div>
         </div>
     </div>
@@ -118,16 +118,16 @@
     <div class="pt-8 w-[100%] h-[100%]">
         <div class="grid grid-cols-10 justify-items-end">
             <div class="row-span-full max-[600px]:col-span-0 col-start-1 col-span-6 self-center">
-                <img class="collapse min-[600px]:visible hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="https://images.unsplash.com/photo-1610212411735-e68d49920025?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="">
+                <img class="collapse min-[600px]:visible hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="vhnet.jpeg" alt="">
             </div>
             <div class="row-span-full  max-[600px]:col-start-1 col-span-6 col-end-11 self-center min-[600px]:p-4">
-                <p class="text-sm font-light pb-1 text-emerald-600  min-w-[100%] text-right">
+                <p class="text-sm font-light pb-1 text-emerald-600  min-w-[100%] min-[600px]:text-right">
                     featured project
                 </p>
                 <a href="https://github.com/Dragos-P-Popa/VirtualHubWeb" target="_blank" rel="noreferrer">
                     <div class="hover:underline drop-shadow-lg min-w-[100%] rounded-sm bg-emerald-600 bg-opacity-50 backdrop-blur-sm w-[100%] h-[10%] mb-4 p-5 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
                         <h1 class="lg:text-4xl sm:text-md font-bold">
-                            VH-Net Laravel WebApp
+                            VH-Net WebApp - Laravel
                         </h1>
                     </div>
                 </a>
@@ -146,17 +146,17 @@
 
     <div class="grid grid-rows-2 gap-3 justify-items-center">
         
-        <a href="#" class="min-w-[100%] flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 transition transform hover:-translate-y-1 hover:-translate-x-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+        <a href="https://github.com/Dragos-P-Popa/Flask-todo-website" target="_blank" rel="noreferrer" class="min-w-[100%] flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 transition transform hover:-translate-y-1 hover:-translate-x-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
             <div class="flex flex-col justify-between p-4 leading-normal">
-                <h5 class="mb-2 text-md font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                <p class="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                <h5 class="mb-2 text-md font-bold tracking-tight text-gray-900 dark:text-white">To-do WebApp - Flask</h5>
+                <p class="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400">A simple to-do webapp built using Flask with a clean and minimalistic design.</p>
             </div>
         </a>
 
-        <a href="#" class="min-w-[100%] flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 transition transform hover:-translate-y-1 hover:-translate-x-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+        <a href="https://github.com/Dragos-P-Popa/portfolio" target="_blank" rel="noreferrer" class="min-w-[100%] flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 transition transform hover:-translate-y-1 hover:-translate-x-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
             <div class="flex flex-col justify-between p-4 leading-normal">
-                <h5 class="mb-2 text-md font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                <p class="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                <h5 class="mb-2 text-md font-bold tracking-tight text-gray-900 dark:text-white">Portfolio Website - Svelte</h5>
+                <p class="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400">This portoflio website was built from scratch using Svelte and TailwindCSS.</p>
             </div>
         </a>
 
@@ -216,7 +216,7 @@
     </div>
 
     <div class="border border-2 border-emerald-800 p-5 mt-12 rounded-md min-[800px]:hidden mb-[20%]">
-        <div class="flex items-center justify-start">
+        <div class="flex items-center justify-start text-center">
             <div>
                 <img alt="" src="github.svg" width="40" height="40" />
             </div>
