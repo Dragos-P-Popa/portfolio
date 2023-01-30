@@ -16,7 +16,7 @@
 <div class="sticky z-50 drop-shadow-lg top-0 bg-gray-900 pt-3 pb-3 mb-[10%]">
     <div class="mx-[15%] flex flex-row">
         <div class="basis-0 md:basis-1/2 justify-self-start items-center">
-            <div class="collapse md:visible max-w-fit rounded-md p-2 drop-shadow-lg" style="background-color: #374151;">
+            <div class="hidden md:block max-w-fit rounded-md p-2 drop-shadow-lg" style="background-color: #374151;">
                 <img alt="" class="pl-1" width="40" height="40" class:active on:mouseenter={() => {
                     src = "wave-animated.gif";
                     setTimeout(
@@ -109,8 +109,8 @@
                     developed 2Sway, an iOS app as the sole technical founder of a university startup. Led the development and designed the user experience.
                 </p>
             </div>
-            <div class="collapse min-[600px]:visible row-span-full col-span-6 col-end-11 self-center p-4 ">
-                <img class="hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="2sway.jpeg" alt="">
+            <div class="hidden min-[600px]:block row-span-full col-span-6 col-end-11 self-center p-4 ">
+                <img class="hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="2sway.webp" alt="">
             </div>
         </div>
     </div>
@@ -118,7 +118,7 @@
     <div class="pt-8 w-[100%] h-[100%]">
         <div class="grid grid-cols-10 justify-items-end">
             <div class="row-span-full max-[600px]:col-span-0 col-start-1 col-span-6 self-center">
-                <img class="collapse min-[600px]:visible hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="vhnet.jpeg" alt="">
+                <img class="hidden min-[600px]:block hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="vhnet.webp" alt="">
             </div>
             <div class="row-span-full  max-[600px]:col-start-1 col-span-6 col-end-11 self-center min-[600px]:p-4">
                 <p class="text-sm font-light pb-1 text-emerald-600  min-w-[100%] min-[600px]:text-right">
@@ -169,7 +169,7 @@
     <div class="grid grid-cols-4 gap-6">
         <div class="grid grid-cols-4 justify-items-start items-center col-span-4 min-[800px]:col-span-3 min-[600px]:row-span-2">
             <div class="col-span-1">
-                <img class="rounded-full hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 " src="dragos.jpeg" alt="">
+                <img class="rounded-full hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 " src="dragos.webp" alt="">
             </div>
             <div class="ml-10 col-span-3">
                 <h1 class="lg:text-3xl sm:text-xl font-bold mt-[10%] pb-2">
