@@ -210,7 +210,7 @@
                         <img alt="" src="resume.svg" width="40" height="40" />
                     </div>
                     <div>
-                        <a href="" target="_blank" rel="noreferrer" class="hover:underline text-xs lg:text-md pl-4">Resume</a>
+                        <a href="https://pdfhost.io/v/g4tJn4n1H_Resume_2022_SWE" target="_blank" rel="noreferrer" class="hover:underline text-xs lg:text-md pl-4">Resume</a>
                     </div>
                 </div>
             </div>
@@ -241,7 +241,7 @@
                 <img alt="" src="resume.svg" width="40" height="40" />
             </div>
             <div>
-                <a href="resume.pdf" target="_blank" rel="noreferrer" class="hover:underline text-xs lg:text-md pl-4">Resume</a>
+                <a href="https://pdfhost.io/v/g4tJn4n1H_Resume_2022_SWE" target="_blank" rel="noreferrer" class="hover:underline text-xs lg:text-md pl-4">Resume</a>
             </div>
         </div>
     </div>
