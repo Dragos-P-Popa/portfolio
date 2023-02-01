@@ -16,7 +16,7 @@
 <div class="sticky z-50 drop-shadow-lg top-0 bg-gray-900 pt-3 pb-3 mb-[10%]">
     <div class="mx-[15%] flex flex-row">
         <div class="basis-0 md:basis-1/2 justify-self-start items-center">
-            <div class="hidden md:block max-w-fit rounded-md p-2 drop-shadow-lg" style="background-color: #374151;">
+            <div class="collapse md:visible max-w-fit rounded-md p-2 drop-shadow-lg" style="background-color: #374151;">
                 <img alt="" class="pl-1" width="40" height="40" class:active on:mouseenter={() => {
                     src = "wave-animated.gif";
                     setTimeout(
