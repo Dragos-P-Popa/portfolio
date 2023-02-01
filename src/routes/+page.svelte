@@ -132,7 +132,7 @@
                     </div>
                 </a>
                 <p class="text-md font-medium pb-1 min-[600px]:pl-[35%]">
-                    developed 2Sway, an iOS app as the sole technical founder of a university startup. Led the development and designed the user experience.
+                    as a solo project, I developed VH-Net, a webapp built using Laravel framework. The website leverages various API's to gather data such as weather information, files, and map geolocation information.
                 </p>
             </div>
         </div>
