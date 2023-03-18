@@ -98,7 +98,7 @@
                 <p class="text-sm font-light pb-1 text-emerald-600">
                     featured project
                 </p>
-                <a href="https://github.com/2sway/MVP-may" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Dragos-P-Popa/2sway" target="_blank" rel="noreferrer">
                     <div class="hover:underline drop-shadow-lg min-w-[100%] rounded-sm bg-emerald-600 bg-opacity-50 backdrop-blur-sm w-[100%] h-[10%] mb-4 p-5 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
                             <h1 class="lg:text-4xl sm:text-md max-w-fit font-bold ">
                                 2Sway iOS application  
