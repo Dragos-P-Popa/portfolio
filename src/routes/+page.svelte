@@ -73,7 +73,7 @@
             <img class="w-auto" alt="" src="book-square.svg"  />
         </div>
         <div>
-            <p class="text-xs md:text-xl pl-4">MEng, BSc Computer Science @ University of Leeds</p>
+            <p class="text-xs md:text-xl pl-4">BSc Computer Science @ University of Leeds</p>
         </div>
     </div>
 
@@ -92,7 +92,30 @@
         .projects( )
     </h1>
 
-    <div id="pj" class="w-[100%] h-[100%]">
+    <div class="pt-8 w-[100%] h-[100%]">
+        <div class="grid grid-cols-10 justify-items-end">
+            <div class="row-span-full max-[600px]:col-span-0 col-start-1 col-span-6 self-center">
+                <img class="hidden min-[600px]:block hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="plato.webp" alt="Showcase of Plato's main features such as creating revision materials, helping students and getting feedback">
+            </div>
+            <div class="row-span-full  max-[600px]:col-start-1 col-span-6 col-end-11 self-center min-[600px]:p-4">
+                <p class="text-sm font-light pb-1 text-emerald-600  min-w-[100%] min-[600px]:text-right">
+                    currently working on
+                </p>
+                <a href="https://plato.ac" target="_blank" rel="noreferrer">
+                    <div class="hover:underline drop-shadow-lg min-w-[100%] rounded-sm bg-emerald-600 bg-opacity-50 backdrop-blur-sm w-[100%] h-[10%] mb-4 p-5 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                        <h1 class="lg:text-4xl sm:text-md font-bold">
+                            Plato - AI-powered study assistant
+                        </h1>
+                    </div>
+                </a>
+                <p class="text-md font-medium pb-1 min-[600px]:pl-[35%]">
+                    currently working on Plato, an AI-powered personal study assistant aimed at improving university students' learning experience and outcomes by helping them create revision flashcards, get their module-specific questions answered and more. Plato is built using SvelteKit, TailwindCSS, and uses Supabase for auth, database and storage. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="pj" class="pt-8 w-[100%] h-[100%]">
         <div class="grid grid-cols-10">
             <div class="row-span-full justify-items-end col-start-1 max-[600px]:col-span-10 col-span-6 self-center">
                 <p class="text-sm font-light pb-1 text-emerald-600">
@@ -110,7 +133,7 @@
                 </p>
             </div>
             <div class="hidden min-[600px]:block row-span-full col-span-6 col-end-11 self-center p-4 ">
-                <img class="hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="2sway.webp" alt="">
+                <img class="hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="2sway.webp" alt="Screenshots of 2Sway, an app built by Dragos Popa">
             </div>
         </div>
     </div>
@@ -118,7 +141,7 @@
     <div class="pt-8 w-[100%] h-[100%]">
         <div class="grid grid-cols-10 justify-items-end">
             <div class="row-span-full max-[600px]:col-span-0 col-start-1 col-span-6 self-center">
-                <img class="hidden min-[600px]:block hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="vhnet.webp" alt="">
+                <img class="hidden min-[600px]:block hover:border-solid hover:border-2 hover:border-emerald-600 border-solid border-2 border-transparent transition duration-300 ease-in-out delay-150 object-cover rounded-lg" src="vhnet.webp" alt="Screenshots of VH-net showing its functionality; searching airport charts, gates and more">
             </div>
             <div class="row-span-full  max-[600px]:col-start-1 col-span-6 col-end-11 self-center min-[600px]:p-4">
                 <p class="text-sm font-light pb-1 text-emerald-600  min-w-[100%] min-[600px]:text-right">
@@ -132,7 +155,7 @@
                     </div>
                 </a>
                 <p class="text-md font-medium pb-1 min-[600px]:pl-[35%]">
-                    as a solo project, I developed VH-Net, a webapp built using Laravel framework. The website leverages various API's to gather data such as weather information, files, and map geolocation information.
+                    as a solo project, I developed VH-Net, a webapp built using the Laravel web framework. The website leverages various API's to gather data such as weather information, files, and map geolocation information.
                 </p>
             </div>
         </div>
@@ -176,13 +199,13 @@
                     Dragos Popa
                 </h1>
                 <p class="lg:text-md pb-10">
-                    2nd year Computer Science student
+                    Final year Computer Science student
                 </p>                    
             </div>
             <div class="whitespace-pre row-span-3 col-span-4 pt-6 whitespace-pre-line">
                 Hi! I'm a driven and enthusiastic student currently studying Computer Science at the University of Leeds. I have a strong interest in mobile and web development and actively seek out opportunities to apply my knowledge and skills in real-world settings.
                 
-                In my free time, I enjoy involving myself in interesting projects and startups around my community. I'm always looking for new challenges and experiences to expand my knowledge and skill set, and I'm eager to see where my studies and passions will take me in the future.
+                In my free time, I enjoy involving myself in interesting projects and startups. I'm always looking for new challenges and experiences to expand my knowledge and skill set, and I'm eager to see where my studies and passions will take me in the future.
             </div>
         </div>
         <div class="col-span-4 hidden min-[800px]:col-span-1 min-[800px]:block items-center ">
@@ -210,7 +233,7 @@
                         <img alt="" src="resume.svg" width="40" height="40" />
                     </div>
                     <div>
-                        <a href="https://pdfhost.io/v/g4tJn4n1H_Resume_2022_SWE" target="_blank" rel="noreferrer" class="hover:underline text-xs lg:text-md pl-4">Resume</a>
+                        <a href="https://drive.google.com/file/d/1xoulm-lRD1sCkvxJSb8-JzDuLIYuww_E/view?usp=drive_link" target="_blank" rel="noreferrer" class="hover:underline text-xs lg:text-md pl-4">Resume</a>
                     </div>
                 </div>
             </div>
@@ -241,7 +264,7 @@
                 <img alt="" src="resume.svg" width="40" height="40" />
             </div>
             <div>
-                <a href="https://pdfhost.io/v/g4tJn4n1H_Resume_2022_SWE" target="_blank" rel="noreferrer" class="hover:underline text-xs lg:text-md pl-4">Resume</a>
+                <a href="https://drive.google.com/file/d/1xoulm-lRD1sCkvxJSb8-JzDuLIYuww_E/view?usp=drive_link" target="_blank" rel="noreferrer" class="hover:underline text-xs lg:text-md pl-4">Resume</a>
             </div>
         </div>
     </div>
